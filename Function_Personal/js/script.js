@@ -4,12 +4,13 @@
 
 // Personal_Functions.
 // hair done cost.
-
+function calculateTotal(){
 var hairColor = 60;
 var washSet = 15;
-var total = calculateTotal(hairColor,washSet);
-function calculateTotal()
-{
+var total = hairColor+washSet;
+
+
 console.log ("Done Cost is" + total);
 	
 }
+calculateTotal()
