@@ -12,7 +12,7 @@ var payPerhour = 50; // how much per hour.
 var webPages = 5; // pages in a website.
 var moneyPerpages =10; // how much extra per pages.
 var totalWork = (hours * payPerhour) + (webPages * moneyPerpages);
-	return totalWork;
+	return totalWork; // returning to calculate totalWork.
 }
 console.log(webSite)
 
