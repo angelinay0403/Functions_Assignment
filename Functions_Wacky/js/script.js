@@ -5,11 +5,12 @@
 
 //Diapers change per day.
 // how many diapers i use per week.
-	calctotalDiapers(3,2,7);
-	function calctotal(w,d,d,t){
+
+
+	function calcusedDiapers(w,d,t,u){
 var wetDiapers = 3;
 var dirtyDiapers = 2;
-var daysAweek  = 7;
-var totalDiapers = (wetDiapers + dirtyDiapers) * daysAweek;
+var timesaWeek  = 7;// seven days a week.
+var usedDiapers = (wetDiapers + dirtyDiapers) * (timesaWeek);
 }
-	console.log(totalDiapers)
+	console.log(usedDiapers)
